@@ -11,8 +11,13 @@
         crossorigin="anonymous">
     <title>Hello, world! extension</title>
     <style>
+        .flex{
+            max-width: 24rem;
+            border: 1px solid #000;
+            width: 24rem;
+        }
         a {
-            width: 1em;
+            
             padding: 1px;
             color: black;
             font-size: 6em;
@@ -22,6 +27,15 @@
         a:hover {
             color: grey;
         }
+        .modal-icons{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content:space-evenly;
+        }
+        .tcenter{
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -29,13 +43,13 @@
     <div class="flex">
 
 
-      <div class="text-center"> <b class="p-2">Quick Links</b></div>
+      <div class="tcenter"> <b>Quick Links</b></div>
        
         <div class="modal-icons">
             <div class="d-flex">
                 <a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></a>
                 <a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
             </div>
         </div>
 
